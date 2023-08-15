@@ -1,6 +1,6 @@
 #proyecto virtualizacion RUBIKO-
 
-*clona el repositorio :
+*clona el repositorio : https://github.com/zarolilla/proyecto-rubiko.git
 *crea la imagen del contenedor estando dentro de la carpeta  con :docker build -t rubiko-basic-docker
 *ejecuta el contenedor: " docker run -p 5050:5000 rubiko-basic-docker  
 accediendo a http://localhost:5050/health desde el navegador respondera con 'ok'.
