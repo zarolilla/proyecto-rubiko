@@ -10,7 +10,7 @@ prueba postman : haciendo peticion GET a http://localhost:5050/health respondera
 " docker run -p 5050:5000 -e GREETINGS="Hello Rubiko Tech!" rubiko-basic-docker " y como resultado a la peticion get en http://localhost:5050/health respondera 'Hello Rubiko Tech!' 
 
 #usnado docker-compose:
-*clona el repositorio :
+*clona el repositorio : https://github.com/zarolilla/proyecto-rubiko.git
 *Estando en la carpeta del proyecto levanta los dos servicios con el comando  "docker-compose up" levantara el servicio WEB y el servicio CURL y el contenedor respondera a http://localhost:5050/healt con el mensaje de la variable de entorno greating
 
 
